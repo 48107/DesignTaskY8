@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    background: rgb(59, 62, 71);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+.topNav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+header {
+    background: #3e4349a4;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 25px;
+    color: aliceblue;
+}
+#tTest {
+    font-weight: 400;
+    color: #505d84;
+}
