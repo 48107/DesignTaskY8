@@ -6,12 +6,6 @@ body {
     margin: 0;
     padding: 0;
 }
-.topNav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-}
 header {
     background: #3e4349a4;
     padding: 20px;
@@ -19,7 +13,37 @@ header {
     font-size: 25px;
     color: aliceblue;
 }
-#tTest {
-    font-weight: 400;
-    color: #505d84;
+.topNav {
+	
+}
+.topNav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.topNav li {
+	display: inline;
+	
+}
+.topNav a {
+    text-decoration: none;
+    text-align: center;
+}
+.tTest {
+    font-weight: 500;
+	color: aliceblue;
+    font-size: 32px;
+    float: right;
+	margin-left: 8%;
+	margin-right: 16%;
+}
+#main {
+	color: #505d84;
+}
+#main:hover {
+	color: #728ad4;
+}
+.tTest:hover {
+	color: #728ad4;
 }
