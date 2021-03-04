@@ -34,12 +34,27 @@ header {
     font-weight: 500;
 	color: aliceblue;
     font-size: 32px;
-    float: right;
+/*    float: right;
 	margin-left: 8%;
-	margin-right: 16%;
+	margin-right: 16%;*/
+}
+#midT {
+	margin-left: 33%;
+	margin-right: 33%;
+}
+#startT {
+	margin-left: 20px;
+}
+#endT {
+	margin-right: 20px;
 }
 #main {
 	color: #505d84;
+	float: center;
+	text-align: center;
+	margin-left: 33%;
+	margin-right: 33%;
+	
 }
 #main:hover {
 	color: #728ad4;
