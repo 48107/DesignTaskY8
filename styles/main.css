@@ -13,52 +13,23 @@ header {
     font-size: 25px;
     color: aliceblue;
 }
-.topNav {
-	
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
-.topNav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-}
-.topNav li {
-	display: inline;
-	
-}
-.topNav a {
-    text-decoration: none;
-    text-align: center;
-}
-.tTest {
-    font-weight: 500;
-	color: aliceblue;
-    font-size: 32px;
-/*    float: right;
-	margin-left: 8%;
-	margin-right: 16%;*/
-}
-#midT {
-	margin-left: 33%;
-	margin-right: 33%;
-}
-#startT {
-	margin-left: 20px;
-}
-#endT {
-	margin-right: 20px;
+.flex-container div {
+	font-weight: 500;
+    font-size: 25px;
+    color: aliceblue;
+	padding: 5px 100px;
 }
 #main {
 	color: #505d84;
-	float: center;
-	text-align: center;
-	margin-left: 33%;
-	margin-right: 33%;
-	
 }
 #main:hover {
 	color: #728ad4;
 }
-.tTest:hover {
+.flex-container div:hover {
 	color: #728ad4;
 }
