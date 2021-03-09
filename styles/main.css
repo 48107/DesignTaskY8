@@ -17,12 +17,17 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+
 }
 .flex-container div {
 	font-weight: 500;
-    font-size: 25px;
+    font-size: 27px;
     color: aliceblue;
-	padding: 5px 100px;
+	padding: auto;
+	margin: 3px 25px;
+}
+a:link{
+  text-decoration: none!important;
 }
 #main {
 	color: #505d84;
@@ -30,6 +35,15 @@ header {
 #main:hover {
 	color: #728ad4;
 }
+#lowerC {
+	padding-right:	29px;
+}
 .flex-container div:hover {
 	color: #728ad4;
+}
+.loremBox {
+	background-color: #32353a;
+	padding: 7px 20px;
+	font-size: 18px;
+	color: #505d84;
 }
