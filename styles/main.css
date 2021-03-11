@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Below is nav bar css */
 header {
     background: #3e4349a4;
     padding: 20px;
@@ -36,14 +38,26 @@ a:link{
 	color: #728ad4;
 }
 #lowerC {
-	padding-right:	29px;
+	padding-right:	35px;
 }
 .flex-container div:hover {
 	color: #728ad4;
 }
+
+/* Below is the box of lorem ipsum */
 .loremBox {
 	background-color: #32353a;
 	padding: 7px 20px;
 	font-size: 18px;
 	color: #505d84;
+}
+
+/* Below is the images/art 
+425, 283*/
+.imgFlex {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 283px;
 }
