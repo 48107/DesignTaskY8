@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
+    
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles/main.css">
     <title>DIT Portfolio</title>
 </head>
 <body>
@@ -38,15 +39,17 @@
 	Cras dolor tellus, dapibus id tincidunt ac, vehicula et lectus. Cras venenatis molestie orci.<br> Morbi venenatis malesuada fringilla. Donec placerat diam in ante malesuada, id maximus purus malesuada.
 	Duis sodales pulvinar faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 	</div>
-	<div class="imgFlex">
-		<div><img id="imgG" src="images/benchy.png"></div>
-		<div><img id="imgQ" src="images/caliCat.png"></div>
-		<div><img id="imgG" src="images/octopus.png"></div>
-	</div>
-	<div class="imgFlex">
-		<div><img id="imgQ" src="images/rocket.png"></div>
-		<div><img id="imgG" src="images/sandworm.png"></div>
-		<div><img id="imgQ" src="images/charazard.png"></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4"><img src="images/benchy.png" class="mx-auto d-block img-fluid"></div>
+			<div class="col-sm-4"><img src="images/caliCat.png" class="mx-auto d-block img-fluid"></div>
+			<div class="col-sm-4"><img src="images/octopus.png" class="mx-auto d-block img-fluid"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4"><img src="images/rocket.png" class="mx-auto d-block img-fluid"></div>
+			<div class="col-sm-4"><img src="images/sandworm.png" class="mx-auto d-block img-fluid"></div>
+			<div class="col-sm-4"><img src="images/charazard.png" class="mx-auto d-block img-fluid"></div>
+		</div>
 	</div>
 </body>
 </html>
