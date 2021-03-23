@@ -47,6 +47,7 @@ a:link{
 /* Below is the box of lorem ipsum */
 .loremBox {
 	background-color: #32353a;
+	font-family: 'Inconsolata', monospace;
 	padding: 7px 20px;
 	font-size: 18px;
 	color: #505d84;
@@ -54,10 +55,10 @@ a:link{
 
 /* Below is the images/art 
 425, 283*/
-.imgFlex {
+/*imgFlex {
 	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-evenly;
+	flex-flow: row;
+	justify-content: space-around;
 	align-items: center;
 	height: 283px;
 	padding-bottom: 50px;
@@ -76,6 +77,6 @@ a:link{
 	background-color: #728ad4;
 	padding: 20px;
 	border-radius: 10px;
-}
+}*/
 /*#3e4349*/
 /**/
