@@ -91,3 +91,10 @@ a:link{
 .bGround {
 	color: #3e4349a4;
 }
+#slideshow {
+	position: relative;
+}
+#slideshow div {
+	position: absolute;
+	float: center;
+}
