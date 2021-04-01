@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="styles/main.css">
+	<script>
+	$("#slideshow > div:gt(0)").hide();
+
+	setInterval(function() { 
+	  $('#slideshow > div:first')
+	  .fadeOut(1000)
+	  .next()
+	  .fadeIn(1000)
+	  .end()
+	  .appendTo('#slideshow');
+	}, 3000);
+	</script>
     <title>DIT Portfolio</title>
 </head>
 <body>
@@ -38,19 +49,19 @@
 	Cras dolor tellus, dapibus id tincidunt ac, vehicula et lectus. Cras venenatis molestie orci.<br> Morbi venenatis malesuada fringilla. Donec placerat diam in ante malesuada, id maximus purus malesuada.
 	Duis sodales pulvinar faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 	</div>
-	<div id="slideshow">
+	<div class="" id="slideshow">
 		<div>
-		<img src="images/benchy.png">
+		<img class="mx-auto d-block img-fluid" src="images/benchy.png">
 		</div><div>
-		<img src="images/caliCat.png">
+		<img class="mx-auto d-block img-fluid" src="images/caliCat.png">
 		</div><div>
-		<img src="images/octopus.png">
+		<img class="mx-auto d-block img-fluid" src="images/octopus.png">
 		</div><div>
-		<img src="images/rocket.png">
+		<img class="mx-auto d-block img-fluid" src="images/rocket.png">
 		</div><div>
-		<img src="images/sandworm.png">
+		<img class="mx-auto d-block img-fluid" src="images/sandworm.png">
 		</div><div>
-		<img src="images/charazard.png">
+		<img class="mx-auto d-block img-fluid" src="images/charazard.png">
 	</div>
 	<!--<div class="container-fluid">
 		<div class="row">
