@@ -92,9 +92,12 @@ a:link{
 	color: #3e4349a4;
 }
 #slideshow {
-	position: relative;
+	/*position: relative;*/
 }
 #slideshow div {
+	/*position: absolute;
+	width: 100px;*/
+}
+#slideshow img {
 	position: absolute;
-	float: center;
 }
