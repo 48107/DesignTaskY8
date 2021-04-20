@@ -8,12 +8,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js" integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw==" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="styles/main.css">
 	<script>
 	$("#slideshow > div:gt(0)").hide();
 
 	setInterval(function() { 
 	  $('#slideshow > div:first')
+	  $('div:first').css('position', 'absolute');
 	  .fadeOut(1000)
 	  .next()
 	  .fadeIn(1000)
@@ -49,19 +51,22 @@
 	Cras dolor tellus, dapibus id tincidunt ac, vehicula et lectus. Cras venenatis molestie orci.<br> Morbi venenatis malesuada fringilla. Donec placerat diam in ante malesuada, id maximus purus malesuada.
 	Duis sodales pulvinar faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 	</div>
-	<div class="" id="slideshow">
-		<div>
-		<img class="mx-auto d-block img-fluid" src="images/benchy.png">
-		</div><div>
-		<img class="mx-auto d-block img-fluid" src="images/caliCat.png">
-		</div><div>
-		<img class="mx-auto d-block img-fluid" src="images/octopus.png">
-		</div><div>
-		<img class="mx-auto d-block img-fluid" src="images/rocket.png">
-		</div><div>
-		<img class="mx-auto d-block img-fluid" src="images/sandworm.png">
-		</div><div>
-		<img class="mx-auto d-block img-fluid" src="images/charazard.png">
+	<div class="carousel slide" data-ride="carousel" id="carouselExampleSlidesOnly">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+			<img class="d-block w-200" src="images/charazard.png">
+			</div><div class="carousel-item ">
+			<img class="d-block w-200" src="images/benchy.png">
+			</div><div class="carousel-item ">
+			<img class="d-block w-200" src="images/sandworm.png">
+			</div><div class="carousel-item ">
+			<img class="d-block w-200" src="images/octopus.png">
+			</div><div class="carousel-item ">
+			<img class="d-block w-200" src="images/caliCat.png">
+			</div><div class="carousel-item ">
+			<img class="d-block w-200" src="images/rocket.png">
+			</div>
+		</div>
 	</div>
 	<!--<div class="container-fluid">
 		<div class="row">
