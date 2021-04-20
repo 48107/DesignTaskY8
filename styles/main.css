@@ -88,16 +88,19 @@ a:link{
 }*/
 /*#3e4349*/
 /**/
-.bGround {
+/*.bGround {
 	color: #3e4349a4;
 }
 #slideshow {
-	/*position: relative;*/
+	position: relative;
 }
 #slideshow div {
 	/*position: absolute;
-	width: 100px;*/
+	width: 100px;
+	position: relative;
 }
 #slideshow img {
+	/*margin-left: 750px!important;
 	position: absolute;
-}
+}*/
+#carousel
