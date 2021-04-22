@@ -103,4 +103,18 @@ a:link{
 	/*margin-left: 750px!important;
 	position: absolute;
 }*/
-#carousel
+.carousel-inner img {
+	width: 40%;
+}
+#rocketA {
+	width:26%;
+}
+#octopusA {
+	width:31%;
+}
+#sandwormA {
+	width:35%;
+}
+#caliCatA {
+	width:31%;
+}
