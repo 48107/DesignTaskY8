@@ -88,6 +88,33 @@ a:link{
 }*/
 /*#3e4349*/
 /**/
-.bGround {
+/*.bGround {
 	color: #3e4349a4;
+}
+#slideshow {
+	position: relative;
+}
+#slideshow div {
+	/*position: absolute;
+	width: 100px;
+	position: relative;
+}
+#slideshow img {
+	/*margin-left: 750px!important;
+	position: absolute;
+}*/
+.carousel-inner img {
+	width: 40%;
+}
+#rocketA {
+	width:26%;
+}
+#octopusA {
+	width:31%;
+}
+#sandwormA {
+	width:35%;
+}
+#caliCatA {
+	width:31%;
 }
