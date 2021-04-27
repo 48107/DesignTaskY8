@@ -60,49 +60,16 @@ a:link{
 	color: #505d84;
 	line-height: 1.3;
 }
-
-/* Below is the images/art 
-425, 283*/
-/*imgFlex {
-	display: flex;
-	flex-flow: row;
-	justify-content: space-around;
-	align-items: center;
-	height: 283px;
-	padding-bottom: 50px;
-	padding-top : 50px;
+.bioA {
+	background-color: #32353a;
+	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
 }
-.imgFlex img {
-	margin-left: 80px;
-	margin-right: 80px;
+.bioB {
+	background-color: #32353a;
+	font-family: 'Inconsolata', monospace;
+	font-size: 24px;
 }
-#imgG {
-	background-color: #3e4349;
-	padding: 20px;
-	border-radius: 10px;
-}
-#imgQ {
-	background-color: #728ad4;
-	padding: 20px;
-	border-radius: 10px;
-}*/
-/*#3e4349*/
-/**/
-/*.bGround {
-	color: #3e4349a4;
-}
-#slideshow {
-	position: relative;
-}
-#slideshow div {
-	/*position: absolute;
-	width: 100px;
-	position: relative;
-}
-#slideshow img {
-	/*margin-left: 750px!important;
-	position: absolute;
-}*/
 .carousel-inner img {
 	width: 40%;
 }
